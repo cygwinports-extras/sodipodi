@@ -1,0 +1,22 @@
+inherit gnome2
+
+DESCRIPTION="GNOME vector graphics designer (obsolete)"
+HOMEPAGE="http://www.sodipodi.com/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+
+DIFF_EXCLUDES='acinclude.m4'
+
+src_compile() {
+	cd ${S}
+	rm -f acinclude.m4
+	gnome2_autoreconf
+
+	cd ${B}
+	gnome2_compile \
+		--disable-mmx \
+		--with-gnome-print \
+		--with-xft \
+		--with-popt \
+		--without-mlview \
+		--without-kde
+}

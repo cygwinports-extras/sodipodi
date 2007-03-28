@@ -1,0 +1,301 @@
+sodipodi
+-------------------------------------------
+Sodipodi is a vector illustrator program for the GNOME environment. 
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.9-1
+  glib2-2.12.9-1
+  gtk2-x11-2.10.9-1
+  libart_lgpl2-2.3.17-1
+  libfontconfig1-2.3.2-2
+  libfreetype26-2.2.1-1
+  libgnomeprint22-2.12.1-2
+  libgnomeprintui22-2.12.1-1
+  libintl8-0.15-1
+  libpng12-1.2.12-1
+  libpopt0-1.10.4-1
+  libxml2-2.6.27-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.7-1.7.9-3
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.35.4-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://sodipodi.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/sodipodi/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sodipodi-0.34-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sodipodi-0.34-X.cygport all
+
+This will create:
+  /usr/src/sodipodi-0.34-X-src.tar.bz2
+  /usr/src/sodipodi-0.34-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/sodipodi.exe
+  /usr/lib/sodipodi/extensions/ill2svg.pl
+  /usr/lib/sodipodi/modules/cygxmleditor.dll
+  /usr/lib/sodipodi/modules/libxmleditor.la
+  /usr/share/applications/sodipodi.desktop
+  /usr/share/doc/Cygwin/sodipodi-0.34.README
+  /usr/share/doc/sodipodi-0.34/AUTHORS
+  /usr/share/doc/sodipodi-0.34/ChangeLog
+  /usr/share/doc/sodipodi-0.34/COPYING
+  /usr/share/doc/sodipodi-0.34/COPYING.LIB
+  /usr/share/doc/sodipodi-0.34/HACKING
+  /usr/share/doc/sodipodi-0.34/INSTALL
+  /usr/share/doc/sodipodi-0.34/NEWS
+  /usr/share/doc/sodipodi-0.34/README
+  /usr/share/doc/sodipodi-0.34/TODO
+  /usr/share/locale/am/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/az/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/be/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/ca/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/cs/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/da/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/de/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/el/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/es/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/et/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/fi/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/fr/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/ga/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/gl/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/hr/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/hu/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/it/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/ja/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/ko/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/mk/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/nl/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/no/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/pl/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/pt/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/ru/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/sk/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/sl/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/sr/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/sv/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/tr/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/uk/LC_MESSAGES/sodipodi.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/sodipodi.mo
+  /usr/share/man/man1/sodipodi.1
+  /usr/share/pixmaps/sodipodi.png
+  /usr/share/sodipodi/about.svg
+  /usr/share/sodipodi/add.xpm
+  /usr/share/sodipodi/add_xml_element_node.xpm
+  /usr/share/sodipodi/add_xml_text_node.xpm
+  /usr/share/sodipodi/align_bc.xpm
+  /usr/share/sodipodi/align_bl.xpm
+  /usr/share/sodipodi/align_br.xpm
+  /usr/share/sodipodi/align_cc.xpm
+  /usr/share/sodipodi/align_cl.xpm
+  /usr/share/sodipodi/align_cr.xpm
+  /usr/share/sodipodi/align_tc.xpm
+  /usr/share/sodipodi/align_tl.xpm
+  /usr/share/sodipodi/align_tr.xpm
+  /usr/share/sodipodi/al_bottom_in.xpm
+  /usr/share/sodipodi/al_bottom_out.xpm
+  /usr/share/sodipodi/al_center_hor.xpm
+  /usr/share/sodipodi/al_center_ver.xpm
+  /usr/share/sodipodi/al_left_in.xpm
+  /usr/share/sodipodi/al_left_out.xpm
+  /usr/share/sodipodi/al_right_in.xpm
+  /usr/share/sodipodi/al_right_out.xpm
+  /usr/share/sodipodi/al_top_in.xpm
+  /usr/share/sodipodi/al_top_out.xpm
+  /usr/share/sodipodi/angle_180.xpm
+  /usr/share/sodipodi/angle_270.xpm
+  /usr/share/sodipodi/angle_90.xpm
+  /usr/share/sodipodi/angle_any.xpm
+  /usr/share/sodipodi/arrows_hor.xpm
+  /usr/share/sodipodi/arrows_ver.xpm
+  /usr/share/sodipodi/cap_butt.xpm
+  /usr/share/sodipodi/cap_round.xpm
+  /usr/share/sodipodi/cap_square.xpm
+  /usr/share/sodipodi/clear.xpm
+  /usr/share/sodipodi/create_new.xpm
+  /usr/share/sodipodi/curve.xpm
+  /usr/share/sodipodi/cusp.xpm
+  /usr/share/sodipodi/del.xpm
+  /usr/share/sodipodi/delete_xml_attribute.xpm
+  /usr/share/sodipodi/delete_xml_node.xpm
+  /usr/share/sodipodi/dimension_hor.xpm
+  /usr/share/sodipodi/dimension_ver.xpm
+  /usr/share/sodipodi/div.xpm
+  /usr/share/sodipodi/draw_arc.xpm
+  /usr/share/sodipodi/draw_dynahand.xpm
+  /usr/share/sodipodi/draw_freehand.xpm
+  /usr/share/sodipodi/draw_node.xpm
+  /usr/share/sodipodi/draw_pen.xpm
+  /usr/share/sodipodi/draw_rect.xpm
+  /usr/share/sodipodi/draw_select.xpm
+  /usr/share/sodipodi/draw_spiral.xpm
+  /usr/share/sodipodi/draw_star.xpm
+  /usr/share/sodipodi/draw_text.xpm
+  /usr/share/sodipodi/draw_zoom.xpm
+  /usr/share/sodipodi/dt_active.xpm
+  /usr/share/sodipodi/dt_inactive.xpm
+  /usr/share/sodipodi/duplicate.xpm
+  /usr/share/sodipodi/duplicate_xml_node.xpm
+  /usr/share/sodipodi/edge_down.xpm
+  /usr/share/sodipodi/edge_up.xpm
+  /usr/share/sodipodi/edit_copy.xpm
+  /usr/share/sodipodi/edit_cut.xpm
+  /usr/share/sodipodi/edit_delete.xpm
+  /usr/share/sodipodi/edit_duplicate.xpm
+  /usr/share/sodipodi/edit_paste.xpm
+  /usr/share/sodipodi/edit_redo.xpm
+  /usr/share/sodipodi/edit_undo.xpm
+  /usr/share/sodipodi/ellipse.xpm
+  /usr/share/sodipodi/file_export.xpm
+  /usr/share/sodipodi/file_import.xpm
+  /usr/share/sodipodi/file_new.xpm
+  /usr/share/sodipodi/file_open.xpm
+  /usr/share/sodipodi/file_print.xpm
+  /usr/share/sodipodi/file_print_direct.xpm
+  /usr/share/sodipodi/file_print_preview.xpm
+  /usr/share/sodipodi/file_save.xpm
+  /usr/share/sodipodi/file_save_as.xpm
+  /usr/share/sodipodi/fill.xpm
+  /usr/share/sodipodi/fill_fractal.xpm
+  /usr/share/sodipodi/fill_gradient.xpm
+  /usr/share/sodipodi/fill_none.xpm
+  /usr/share/sodipodi/fill_pattern.xpm
+  /usr/share/sodipodi/fill_radial.xpm
+  /usr/share/sodipodi/fill_solid.xpm
+  /usr/share/sodipodi/flip_hor.xpm
+  /usr/share/sodipodi/flip_ver.xpm
+  /usr/share/sodipodi/font.xpm
+  /usr/share/sodipodi/forward.xpm
+  /usr/share/sodipodi/freehand.xpm
+  /usr/share/sodipodi/guide_dialog.png
+  /usr/share/sodipodi/icons.svg
+  /usr/share/sodipodi/join.xpm
+  /usr/share/sodipodi/join_bevel.xpm
+  /usr/share/sodipodi/join_miter.xpm
+  /usr/share/sodipodi/join_round.xpm
+  /usr/share/sodipodi/line.xpm
+  /usr/share/sodipodi/line_dashed.xpm
+  /usr/share/sodipodi/line_doubled.xpm
+  /usr/share/sodipodi/line_full.xpm
+  /usr/share/sodipodi/lock_aspect_no.xpm
+  /usr/share/sodipodi/lock_aspect_yes.xpm
+  /usr/share/sodipodi/move.xpm
+  /usr/share/sodipodi/node.xpm
+  /usr/share/sodipodi/node_break.xpm
+  /usr/share/sodipodi/node_curve.xpm
+  /usr/share/sodipodi/node_cusp.xpm
+  /usr/share/sodipodi/node_delete.xpm
+  /usr/share/sodipodi/node_insert.xpm
+  /usr/share/sodipodi/node_join.xpm
+  /usr/share/sodipodi/node_line.xpm
+  /usr/share/sodipodi/node_smooth.xpm
+  /usr/share/sodipodi/node_symetric.xpm
+  /usr/share/sodipodi/object_align.xpm
+  /usr/share/sodipodi/object_fill.xpm
+  /usr/share/sodipodi/object_flip_hor.xpm
+  /usr/share/sodipodi/object_flip_ver.xpm
+  /usr/share/sodipodi/object_font.xpm
+  /usr/share/sodipodi/object_layout.xpm
+  /usr/share/sodipodi/object_reset.xpm
+  /usr/share/sodipodi/object_rotate.xpm
+  /usr/share/sodipodi/object_stroke.xpm
+  /usr/share/sodipodi/object_tocurve.xpm
+  /usr/share/sodipodi/object_trans.xpm
+  /usr/share/sodipodi/origin.xpm
+  /usr/share/sodipodi/properties_fill.xpm
+  /usr/share/sodipodi/properties_layout.xpm
+  /usr/share/sodipodi/properties_stroke.xpm
+  /usr/share/sodipodi/quit_nope.xpm
+  /usr/share/sodipodi/quit_yep.xpm
+  /usr/share/sodipodi/rect.xpm
+  /usr/share/sodipodi/reread.xpm
+  /usr/share/sodipodi/rotate.xpm
+  /usr/share/sodipodi/rotate_left.xpm
+  /usr/share/sodipodi/rotate_right.xpm
+  /usr/share/sodipodi/scale.xpm
+  /usr/share/sodipodi/scale_hor.xpm
+  /usr/share/sodipodi/scale_ver.xpm
+  /usr/share/sodipodi/select.xpm
+  /usr/share/sodipodi/selection_bot.xpm
+  /usr/share/sodipodi/selection_break.xpm
+  /usr/share/sodipodi/selection_combine.xpm
+  /usr/share/sodipodi/selection_down.xpm
+  /usr/share/sodipodi/selection_group.xpm
+  /usr/share/sodipodi/selection_intersection.xpm
+  /usr/share/sodipodi/selection_subtraction.xpm
+  /usr/share/sodipodi/selection_top.xpm
+  /usr/share/sodipodi/selection_ungroup.xpm
+  /usr/share/sodipodi/selection_union.xpm
+  /usr/share/sodipodi/selection_up.xpm
+  /usr/share/sodipodi/seperate_tool.xpm
+  /usr/share/sodipodi/set.xpm
+  /usr/share/sodipodi/skew.xpm
+  /usr/share/sodipodi/skew_hor.xpm
+  /usr/share/sodipodi/skew_ver.xpm
+  /usr/share/sodipodi/smooth.xpm
+  /usr/share/sodipodi/stroke.xpm
+  /usr/share/sodipodi/sym.xpm
+  /usr/share/sodipodi/text.xpm
+  /usr/share/sodipodi/toback.xpm
+  /usr/share/sodipodi/tofront.xpm
+  /usr/share/sodipodi/toolbox_draw.xpm
+  /usr/share/sodipodi/toolbox_edit.xpm
+  /usr/share/sodipodi/toolbox_file.xpm
+  /usr/share/sodipodi/toolbox_node.xpm
+  /usr/share/sodipodi/toolbox_object.xpm
+  /usr/share/sodipodi/toolbox_select.xpm
+  /usr/share/sodipodi/toolbox_zoom.xpm
+  /usr/share/sodipodi/unknown.xpm
+  /usr/share/sodipodi/writing_mode_lr.xpm
+  /usr/share/sodipodi/writing_mode_tb.xpm
+  /usr/share/sodipodi/zoom.xpm
+  /usr/share/sodipodi/zoom_1_to_1.xpm
+  /usr/share/sodipodi/zoom_1_to_2.xpm
+  /usr/share/sodipodi/zoom_2_to_1.xpm
+  /usr/share/sodipodi/zoom_draw.xpm
+  /usr/share/sodipodi/zoom_in.xpm
+  /usr/share/sodipodi/zoom_out.xpm
+  /usr/share/sodipodi/zoom_page.xpm
+  /usr/share/sodipodi/zoom_select.xpm
+
+------------------
+
+Port Notes:
+
+----- version 0.34-2 -----
+Rebuilt with cygport.
+Upstream development has apparently ceased.
+
+----- version 0.34-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
